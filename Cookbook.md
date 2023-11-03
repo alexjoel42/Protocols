@@ -168,7 +168,7 @@ The compensation coefficient denotes a multiple that tells the how much "extra" 
 
 ```
 from opentrons import protocol_api, types
-from opentrons import APIVersion
+from opentrons.protocols.api_support.types import APIVersion
 from opentrons.protocol_api.labware import Well
 import math
 
